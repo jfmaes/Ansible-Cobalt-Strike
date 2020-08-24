@@ -1,7 +1,7 @@
 galaxy_info:
-  role_name: Red-Leader
+  role_name: Cobalt-Strike
   author: "@jfmaes"
-  description: Provisions EC2 & R53 for red team infra (C2,redirector,RedELK)
+  description: Download Cobalt-Strike and install Java JDK if not present on the machine.
   company: ""
   license: MIT / BSD
   min_ansible_version: 2.8
@@ -11,5 +11,5 @@ galaxy_info:
         - Kali
   galaxy_tags:
     - redteam
-    - aws
+    - Cobalt-Strike
 dependencies: []
