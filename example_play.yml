@@ -1,5 +1,6 @@
 - hosts: localhost
   vars:
    cs_license: ""
+   cs_download_location: /tmp
   roles:
    - Cobalt-Strike
