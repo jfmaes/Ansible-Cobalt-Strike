@@ -29,7 +29,7 @@
     remote_src: yes
 
 - name: Creating Cobalt-Strike license file
-  shell: "echo {{ cs_license }} ~/.cobaltstrike.license"
+  shell: "echo {{ cs_license }} >~/.cobaltstrike.license"
 
 - name: Updating Cobalt-Strike to latest version, this might take a while.
   shell: "./update"
