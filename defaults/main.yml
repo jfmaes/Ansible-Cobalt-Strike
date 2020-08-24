@@ -1,2 +1,2 @@
 open_jdk_version: "openjdk-14-jdk"
-cs_download_location: "/root/"
+cs_download_location: "/home/ec2-user/"
