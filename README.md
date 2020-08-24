@@ -11,7 +11,8 @@ This role has the following variables
 |cs_license | N.A | Your Cobalt-Strike License|
 
 ## Testing
-you can test out the role using the example playbook (will install Cobalt-Strike on localhost)
+you can test out the role using the example playbook **Don't forget to add your license to the example play** (will install Cobalt-Strike on localhost in /tmp)
+
 ```
-ansible-playbook example_playbook.yml
+ansible-playbook example_playbook.yml 
 ```
