@@ -1,5 +1,5 @@
 # Ansible-Cobalt-Strike
-An Ansible role to install cobalt-strike on debian architectures.
+An Ansible role to install cobalt-strike on debian based architectures, let's be honest it's for kali.
 
 ## Variables
 This role has the following variables
