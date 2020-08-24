@@ -16,3 +16,9 @@ you can test out the role using the example playbook **Don't forget to add your 
 ```
 ansible-playbook example_playbook.yml 
 ```
+If not running as root (and passwordless sudo is not allowed)
+
+
+```
+ansible-playbook example_playbook.yml --ask-become-password
+```
