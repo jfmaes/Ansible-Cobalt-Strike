@@ -1,4 +1,4 @@
-- name: Install Java JDK 
+- name: Install Java JDK, this might take a while
   apt:
    name: "{{ open_jdk_version }}"
    state: present
@@ -28,7 +28,7 @@
     dest: "{{ cs_download_location }}"
     remote_src: yes
 
-- name: Updating Cobalt-Strike to latest
+- name: Updating Cobalt-Strike to latest version, this might take a while.
   shell: "./update"
   args:
     chdir: "{{ cs_download_location }}/cobaltstrike"
